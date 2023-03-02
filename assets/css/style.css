@@ -1,0 +1,16 @@
+/* ==== GLOBAL VARIABLE ==== */
+:root {
+  /* Font family */
+  --ff-outfit: "Outfit", sans-serif;
+}
+
+/* Style Attibution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* ==== RESPONSIVE ==== */
