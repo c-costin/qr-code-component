@@ -1,7 +1,62 @@
 /* ==== GLOBAL VARIABLE ==== */
 :root {
-  /* Font family */
+  /* Colors */
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-gray: hsl(212, 45%, 89%);
+  --color-grayish-blue: hsl(220, 15%, 55%);
+  --color-dark-blue: hsl(218, 44%, 22%);
+
+  /* Font Family */
   --ff-outfit: "Outfit", sans-serif;
+
+  /* Font Size */
+  --fs-default: 15px;
+}
+
+/* Style Body */
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: var(--ff-outfit);
+  font-size: var(--fs-default);
+  background: var(--color-grayish-blue);
+}
+
+/* Style Main */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style Card */
+.card {
+  padding: 1rem;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  background: var(--color-white);
+}
+.card__img {
+  border-radius: 1rem;
+}
+.card__title {
+  padding: 0 2rem;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: var(--color-dark-blue);
+}
+.card__desc {
+  margin-bottom: 2rem;
+  padding: 0 2rem;
+  color: var(--color-grayish-blue);
 }
 
 /* Style Attibution */
@@ -12,5 +67,3 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
-/* ==== RESPONSIVE ==== */
